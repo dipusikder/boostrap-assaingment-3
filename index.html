@@ -14,58 +14,43 @@
 <body>
     <!-- navbar Start -->
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-white">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-secondary">
             <div class="container-fluid">
-                <img class="pe-3" src="images/logo.png" alt="">
-                <a class="navbar-brand" href="#">
-                    <h2 class="text-muted">Online Education</h2>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon bg-primary"></span>
+                <a class="navbar-brand text-light fw-bold" href="#">Coding</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
-                    <ul class="navbar-nav">
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">
-                                <p class="text-muted pe-5">Home</p>
-                            </a>
+                            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <p class="text-muted pe-5">Coursess</p>
-                            </a>
+                            <a class="nav-link text-light" href="#">Courses</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <p class="text-muted pe-5">Deals</p>
-                            </a>
+                            <a class="nav-link text-light" href="#">Deals</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <p class="text-muted pe-5">Success</p>
-                            </a>
+                            <a class="nav-link text-light" href="#">Success</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <p class="text-muted pe-5">About</p>
-                            </a>
+                            <a class="nav-link text-light" href="#">Register</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <p class="text-muted">Register</p>
-                            </a>
-                        </li>
+                        
                     </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
                 </div>
-                <form class="d-flex" role="search">
-
-                    <button class="btn btn-outline-primary" type="submit">Register</button>
-                </form>
             </div>
-    </div>
-    </nav>
+        </nav>
     </div>
     <!-- navbar end -->
     <div class="container">
@@ -81,9 +66,9 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="images/1.jpg" class="d-block w-100" alt="...">
+                    <img src="images/1.jpg" class="d-block" alt="...">
                     <div class="carousel-caption d-md-block">
-                        <h2 class="text-light">Coding</h2>
+                        <h2 class="text-light fw-bold">Coding</h2>
                         <p class="text-light">Teachnology Boost Your Life</p>
                         <button type="button" class="btn btn-outline-light">
                             <h3>Teachnology</h3>
@@ -97,12 +82,12 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/2.jpg" class="d-block w-100" alt="...">
+                    <img src="images/2.jpg" class="d-block" alt="...">
                     <div class="carousel-caption d-md-block">
                         <h2 class="text-light">Advance Feature is Alwyas Update</h2>
                         <p>Teachnology Boost Your Life</p>
                         <button type="button" class="btn btn-outline-light">
-                            <h3>HTMl</h3>
+                            <h3>Html</h3>
                         </button>
                         <button type="button" class="btn btn-outline-light">
                             <h3>CSS</h3>
@@ -113,7 +98,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/3.jpg" class="d-block w-100" alt="...">
+                    <img src="images/3.jpg" class="d-block" alt="...">
                     <div class="carousel-caption d-md-block">
                         <h2 class="text-light">Life Was Full Of Race</h2>
                         <p>Teachnology Boost Your Life</p>
@@ -155,12 +140,12 @@
         <div class="container py-5">
             <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
                 <div class="col">
-                    <div class="card border border-0 shadow-lg d-flex flex-row">
+                    <div class="card border border-0 shadow-lg d-flex flex-row ">
                         <img src="images/course/course-1.png" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p>Price : 20$</p>
+                            <h5 class="card-title fw-bold">Fundamental Of UI/UX Design</h5>
+                            <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                            <p class="text-primary">Price : 20$</p>
                         </div>
                     </div>
                 </div>
@@ -169,9 +154,9 @@
                     <div class="card border border-0 shadow-lg d-flex flex-row">
                         <img src="images/course/course-2.png" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Javascript Basic to advanced</h5>
-                            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p>Price : 20$</p>
+                            <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
+                            <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                            <p class="text-primary">Price : 20$</p>
                         </div>
                     </div>
                 </div>
@@ -180,9 +165,9 @@
                     <div class="card border border-0 shadow-lg d-flex flex-row">
                         <img src="images/course/course-3.png" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Fullstack Web Development</h5>
-                            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p>Price : 20$</p>
+                            <h5 class="card-title fw-bold">Fullstack Web Development</h5>
+                            <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                            <p class="text-primary">Price : 20$</p>
                         </div>
                     </div>
                 </div>
@@ -191,9 +176,9 @@
                     <div class="card border border-0 shadow-lg d-flex flex-row">
                         <img src="images/course/course-4.png" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Digital Marketing</h5>
-                            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p>Price : 20$</p>
+                            <h5 class="card-title fw-bold">Digital Marketing</h5>
+                            <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                            <p class="text-primary">Price : 20$</p>
                         </div>
                     </div>
                 </div>
@@ -202,9 +187,9 @@
                     <div class="card border border-0 shadow-lg d-flex flex-row">
                         <img src="images/course/course-5.png" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Photography Basic Rules</h5>
-                            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p>Price : 20$</p>
+                            <h5 class="card-title fw-bold">Photography Basic Rules</h5>
+                            <p class="text-secondary" >Some quick example text to build on the card title and make up the bulk of the card.</p>
+                            <p class="text-primary">Price : 20$</p>
                         </div>
                     </div>
                 </div>
@@ -213,9 +198,9 @@
                     <div class="card border border-0 shadow-lg d-flex flex-row">
                         <img src="images/course/course-6.png" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Motion Graphics</h5>
-                            <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
-                            <p>Price : 20$</p>
+                            <h5 class="card-title fw-bold">Motion Graphics</h5>
+                            <p class="text-secondary">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                            <p class="text-primary">Price : 20$</p>
                         </div>
                     </div>
                 </div>
@@ -226,35 +211,35 @@
         <!-- <Button Start -->
         <div class="row row-cols-2 row-cols-md-4 my-5 text-center justify-content-center">
             <div class="col">
-                <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+                <button type="button" class="w-100 btn btn-lg btn-primary fw-bold">Get started</button>
             </div>
         </div>
     </div>
     <!-- <Button end -->
     <div class="container">
-        <div class="row featurette d-flex align-items-center justify-content-between bg-info">
+        <div class="row featurette d-flex align-items-center justify-content-between">
             <div class="col-md-6">
                 <h2 class="featurette-heading">
                     <img class="img-fluid" width="500" height="500" src="images/working.png" alt="">
             </div>
             <div class="col-md-6">
-                <h1>Explore The elearning Institute</h1>
-                <p class="lead">Education helps us get exposure to new ideas and concepts that we can use</p>
+                <h1 class="fw-bold">Explore The elearning Institute</h1>
+                <p class="lead text-secondary">Education helps us get exposure to new ideas and concepts that we can use</p>
                 <div class="d-flex justify-content-between">
                     <div>
-                        <h1>3.2K+</h1>
-                        <p>Online Course</p>
+                        <h1 class="fw-bold">3.2K+</h1>
+                        <p class="text-secondary">Online Course</p>
                     </div>
                     <div>
-                        <h1>600+</h1>
-                        <p>Expert member</p>
+                        <h1 class="fw-bold">600+</h1>
+                        <p class="text-secondary">Expert member</p>
                     </div>
                     <div>
-                        <h1>1k+</h1>
-                        <p>Rating & Review</p>
+                        <h1 class="fw-bold">1k+</h1>
+                        <p class="text-secondary">Rating & Review</p>
                     </div>
                 </div>
-                <button type="button" class="btn btn-lg btn-primary">Get started</button>
+                <button type="button" class="btn btn-lg btn-primary fw-bold">Read More</button>
             </div>
         </div>
     </div>
@@ -263,14 +248,14 @@
         <div class="row featurette d-flex justify-content-center align-items-center bg-info pb-5 pt-5">
             <div class="col-md-7 order-md-1 d-flex justify-content-center align-items-center">
                 <div>
-                    <h1 class="featurette-heading">Ready to join?</h1>
-                    <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of
+                    <h1 class="featurette-heading text-light">Ready to join?</h1>
+                    <p class="lead text-light">Another featurette? Of course. More placeholder content here to give you an idea of
                         how
                         this layout would work with some actual real-world content in place.</p>
                 </div>
             </div>
             <div class="col-md-5 order-md-2 d-flex justify-content-center">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                <button type="button" class="btn btn-outline-primary fw-bold" data-bs-toggle="modal"
                     data-bs-target="#RegisterNowModal">Register Now</button>
             </div>
 
@@ -320,17 +305,17 @@
     <!-- Modal End -->
     <!-- Student Blog Start -->
     <div class="container">
-        <h1>Meet Our Successfull</h1>
-        <h1>Students</h1>
-        <p>It is a long established fact that a reader willpage when</p>
-        <p>looking at its layout be distracted by the readable content of a </p>
+        <h1 class="fw-bold">Meet Our Successfull</h1>
+        <h1 class="fw-bold">Students</h1>
+        <p class="text-secondary">It is a long established fact that a reader willpage when</p>
+        <p class="text-secondary">looking at its layout be distracted by the readable content of a </p>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
             <div class="col">
                 <div class="card border border-0 shadow-lg h-100">
                     <img src="images/student/student-1.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Awlad Hossain</h5>
-                        <p>UIUX Designer</p>
+                        <h5 class="card-title fw-bold">Awlad Hossain</h5>
+                        <p class="text-secondary">UIUX Designer</p>
                     </div>
                 </div>
             </div>
@@ -338,8 +323,8 @@
                 <div class="card border border-0 shadow-lg h-100">
                     <img src="images/student/student-2.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Jannatul Islam</h5>
-                        <p>Motion Design</p>
+                        <h5 class="card-title fw-bold">Jannatul Islam</h5>
+                        <p class="text-secondary">Motion Design</p>
                     </div>
                 </div>
             </div>
@@ -347,8 +332,8 @@
                 <div class="card border border-0 shadow-lg h-100">
                     <img src="images/student/student-3.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Imran Hossain</h5>
-                        <p>Graphic Designer</p>
+                        <h5 class="card-title fw-bold">Imran Hossain</h5>
+                        <p class="text-secondary">Graphic Designer</p>
                     </div>
                 </div>
             </div>
@@ -356,8 +341,8 @@
                 <div class="card border border-0 shadow-lg h-100">
                     <img src="images/student/student-4.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Nishi Akter</h5>
-                        <p>Web Developer</p>
+                        <h5 class="card-title fw-bold">Nishi Akter</h5>
+                        <p class="text-secondary">Web Developer</p>
                     </div>
                 </div>
             </div>
@@ -367,17 +352,16 @@
     <!-- <Button Start -->
     <div class="row row-cols-2 row-cols-md-4 my-5 text-center justify-content-center">
         <div class="col">
-            <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button>
+            <button type="button" class="w-50 btn btn-lg btn-primary">View All</button>
         </div>
     </div>
     </div>
     <!-- <Button end -->
     <!-- ask question Start -->
     <div class="px-4 py-5 my-5 text-center">
-        <h1 class="display-5 fw-bold">Discover Our Popular Courses</h1>
+        <h1 class="display-5 fw-bold">Frequently Asked Questions </h1>
         <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">It is a long established fact that a reader
-                will be distracted by the readable content
+            <p class="lead mb-4">It is a long established fact that a reader will be distracted by the readable content
                 of a page when looking at its layout</p>
         </div>
     </div>
@@ -495,9 +479,8 @@
         <div class="py-5">
             <h1 class="display-5 fw-bold text-white">Online Education</h1>
             <div class="col-lg-6 mx-auto">
-                <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the
-                    world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive
-                    grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <p class="fs-5 mb-4">“Learning starts with failure; the first failure is the beginning of education.”
+                </p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                     <a class="link-button" target="_blank" href="https://www.facebook.com/">
                         <i class="fa-brands fa-facebook"></i></a>
